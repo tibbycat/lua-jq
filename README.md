@@ -11,7 +11,7 @@ Build and install lua-jq
 ```
 1. git clone https://github.com/tibbycat/lua-jq.git
 2. make
-3. jq-test.lua
+3. ./jq-test.lua
 4. sudo cp jq.so /usr/local/lib/lua/5.1
 ```
 ## Needs work if you want to support chunking
