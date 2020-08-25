@@ -3,7 +3,7 @@ version = "1.0-1"
 supported_platforms = {"linux", "macosx"}
 source = {
   url = "git://github.com/tibbycat/lua-jq",
-  tag = "v0.1-1"
+  tag = "v1.0-1"
 }
 description = {
   summary = "./jq wrapper for lua",
