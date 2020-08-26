@@ -9,7 +9,10 @@ LIBS=luajit-5.1
 jq.so: lua-jq.c
 	$(CC) $(FLAGS) -o $@ -I$(INCDIRS) -L$(LIBDIRS) -l$(LIBS) -ljq $<
 
-install:
+test: jq.so
+	lua jq-test.lua
+
+install: jq.so
 	cp jq.so $(LUA_LIBDIR)
 
 
