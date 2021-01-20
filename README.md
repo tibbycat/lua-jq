@@ -24,4 +24,4 @@ Build and install lua-jq
 3. make test
 4. sudo make install
 ```
-## Needs work if you want to support chunking
+## Needs work if you want to support chunking (streaming)
